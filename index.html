@@ -380,10 +380,10 @@
             isPlaying = !isPlaying;
         }
 
-        // if (!localStorage.getItem('opened')) {
-        //     disableScroll();
-        // }
-        disableScroll();
+        if (!localStorage.getItem('opened')) {
+            disableScroll();
+        }
+        // disableScroll();
     </script>
 
     <script>
